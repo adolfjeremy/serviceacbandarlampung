@@ -1,3 +1,5 @@
+$green: #1c6758;
+$red: #850e35;
 header {
     display: flex;
     align-items: center;
@@ -44,7 +46,7 @@ header {
         &::after {
             width: 30px;
             height: 3px;
-            background-color: red;
+            background-color: $red;
             transition: 200ms ease-in-out;
         }
         &::before,

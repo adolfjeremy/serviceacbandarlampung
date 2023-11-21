@@ -1,0 +1,53 @@
+$green: #1c6758;
+$red: #850e35;
+
+.value {
+    padding: 60px 6%;
+    .value_heading {
+        margin: 0 140px 60px 140px;
+        @media (max-width: 1200px) {
+            margin: 0 30px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            color: $red;
+        }
+    }
+    .value_list {
+        display: grid;
+        column-gap: 50px;
+        grid-template-rows: 1fr;
+        row-gap: 50px;
+        @media (min-width: 766px) {
+            margin: 0 30px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .value_item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 40px;
+            background-color: $green;
+            border-radius: 10px;
+            svg {
+                font-size: 3.5rem;
+                color: $red;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                color: #ffffff;
+                margin: 10px 0;
+            }
+            p {
+                text-align: center;
+                color: #ffffff;
+                margin: 0;
+            }
+        }
+    }
+}

@@ -45,7 +45,7 @@ function Header() {
                     Service
                 </a>
                 <a className="nav_link" href="#gallery">
-                    Gallery
+                    Galeri
                 </a>
             </nav>
         </header>

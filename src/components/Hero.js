@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import "../styles/hero.scss";
 
@@ -18,9 +17,14 @@ function Hero() {
                     Percayakan perbaikan semua permasalahan pada AC Anda pada
                     kami, yang sudah terpercaya dan berpengalaman
                 </p>
-                <Link className="cta_button" to="/">
+                <a
+                    href="https://wa.me/6285361041025?text=halo%20,%20saya%20butuh%20service%20ac"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="cta_button"
+                >
                     Hubungi Kami
-                </Link>
+                </a>
             </div>
         </section>
     );

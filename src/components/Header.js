@@ -22,10 +22,13 @@ function Header() {
                     Beranda
                 </a>
                 <a className="nav_link" href="#tentang">
-                    Beranda
+                    Tentang Kami
                 </a>
-                <a className="nav_link" href="#beranda">
-                    Beranda
+                <a className="nav_link" href="#service">
+                    Service
+                </a>
+                <a className="nav_link" href="#gallery">
+                    Gallery
                 </a>
             </nav>
             <nav className={open ? "drawer show" : "drawer"}>
@@ -35,11 +38,14 @@ function Header() {
                 <a className="nav_link" href="#beranda">
                     Beranda
                 </a>
-                <a className="nav_link" href="#beranda">
-                    Beranda
+                <a className="nav_link" href="#tentang">
+                    Tentang Kami
                 </a>
-                <a className="nav_link" href="#beranda">
-                    Beranda
+                <a className="nav_link" href="#service">
+                    Service
+                </a>
+                <a className="nav_link" href="#gallery">
+                    Gallery
                 </a>
             </nav>
         </header>

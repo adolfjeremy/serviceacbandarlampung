@@ -72,8 +72,8 @@ header {
         position: absolute;
         top: 0;
         bottom: 0;
-        left: -30vw;
-        width: 30vw;
+        left: -65vw;
+        width: 65vw;
         padding: 20px;
         background-color: white;
         transition: 200ms ease-in-out;
@@ -81,10 +81,15 @@ header {
             display: none;
         }
 
+        .site_name {
+            margin: 0 0 10px 0;
+        }
+
         .nav_link {
             font-size: 1rem;
-            font-weight: 500;
+            font-weight: 600;
             margin: 10px 0;
+            color: #000000;
         }
     }
     .show {
@@ -102,6 +107,12 @@ header {
         }
         .nav_link {
             margin: 0 15px;
+            font-size: 1rem;
+            color: #000000;
+            font-weight: 600;
+            &:hover {
+                color: $red;
+            }
         }
     }
 }

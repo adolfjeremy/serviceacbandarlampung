@@ -2,16 +2,24 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  siteMetadata: {
-    title: `serviceacbandarlampung`,
-    siteUrl: `https://www.yourdomain.tld`
-  },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "images",
-      "path": "./src/images/"
+    pathPrefix: "/serviceacbandarlampung",
+    siteMetadata: {
+        title: `Jasa Service AC Terbaik di Bandar Lampung`,
+        siteUrl: `https://www.serviceacbandarlampung.com`,
     },
-    __key: "images"
-  }]
+    plugins: [
+        "gatsby-plugin-sass",
+        "gatsby-plugin-image",
+        "gatsby-plugin-sitemap",
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-sharp",
+        {
+            resolve: "gatsby-source-filesystem",
+            options: {
+                name: "images",
+                path: "./src/images/",
+            },
+            __key: "images",
+        },
+    ],
 };

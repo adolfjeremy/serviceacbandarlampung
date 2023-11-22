@@ -5,6 +5,7 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Value from "../components/Value";
 import Gallery from "../components/Gallery";
+import { SEO } from "../components/Seo";
 
 import "../styles/index.scss";
 
@@ -19,5 +20,7 @@ function index() {
         </Layout>
     );
 }
+
+export const Head = () => <SEO />;
 
 export default index;

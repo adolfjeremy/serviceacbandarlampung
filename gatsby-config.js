@@ -5,7 +5,8 @@ module.exports = {
     pathPrefix: "/serviceacbandarlampung",
     siteMetadata: {
         title: `Jasa Service AC Terbaik di Bandar Lampung`,
-        siteUrl: `https://www.serviceacbandarlampung.com`,
+        description: `Temukan layanan profesional perawatan dan servis AC terbaik di Bandar Lampung. Tim ahli kami siap memberikan solusi cepat dan efisien untuk segala masalah AC Anda. Hubungi kami sekarang untuk pengalaman ber-AC yang nyaman dan sejuk sepanjang tahun!`,
+        siteUrl: `https://www.serviceacbandarlampung.id`,
     },
     plugins: [
         "gatsby-plugin-sass",

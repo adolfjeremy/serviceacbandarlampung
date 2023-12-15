@@ -16,7 +16,10 @@ export const SEO = ({ title, description, pathname, children }) => {
     return (
         <>
             <title>{seo.title}</title>
-            <meta name="description" content={seo.description} />
+            <meta
+                name="description"
+                content="Temukan layanan profesional perawatan dan servis AC terbaik di Bandar Lampung. Tim ahli kami siap memberikan solusi cepat dan efisien untuk segala masalah AC Anda. Hubungi kami sekarang untuk pengalaman ber-AC yang nyaman dan sejuk sepanjang tahun!"
+            />
             <link rel="canonical" href={seo.url}></link>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={seo.title}></meta>
